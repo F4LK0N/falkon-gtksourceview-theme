@@ -28,7 +28,7 @@
   <color name="white"               value="#cccccc"/>
   <color name="red"                 value="#ff0000"/>
   <color name="green"               value="#00bb00"/>
-  <color name="blue"                value="#0000ff"/>
+  <color name="blue"                value="#3333bb"/>
   <color name="orange1"             value="#f57900"/>
   <color name="orange2"             value="#f79B22"/>
   <color name="yellow"              value="#f0f030"/>
@@ -37,9 +37,9 @@
   <!-- Global Settings -->
   <style name="text"                     foreground="white" background="background"/>
   <style name="cursor"                   foreground="red"/>
-  <style name="current-line"             background="grey2"/>
+  <style name="current-line"             background="grey1"/>
   <style name="line-numbers"             foreground="white" background="grey2"/>
-  <style name="selection"                foreground="white" background="grey2"/>
+  <style name="selection"                background="grey2"/>
 
   <!-- Comments -->
   <style name="def:comment"              foreground="grey2"/>
@@ -48,7 +48,7 @@
   <style name="def:note"                 foreground="grey2"/>
 
   <!-- Bracket Matching -->
-  <style name="bracket-match"        foreground="yellow"/>
+  <style name="bracket-match"        foreground="yellow" background="grey3"/>
   <style name="bracket-mismatch"     foreground="red"/>
   <style name="search-match"         foreground="grey3" background="grey1"/>
 
@@ -61,6 +61,7 @@
   <style name="def:floating-point"   foreground="yellow"/>
   <style name="def:complex"          foreground="yellow"/>
   <style name="def:base-n-integer"   foreground="yellow"/>
+  <style name="def:operator"         foreground="blue" bold="true"/>
   <style name="def:boolean"          foreground="green" bold="true"/>
   <style name="def:keyword"          foreground="green" bold="true"/>
   <style name="def:type"             foreground="green" bold="true"/>
@@ -68,7 +69,6 @@
   <style name="def:builtin"          foreground="green"/>
   <style name="def:function"         foreground="green"/>
   <style name="def:identifier"       foreground="green"/>
-  <style name="def:operator"         foreground="green"/>
   <style name="def:statement"        foreground="green"/>
   <style name="def:constant"         foreground="green"/>
   <style name="def:special-constant" foreground="green"/>
