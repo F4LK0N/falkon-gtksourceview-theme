@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  This is my personal GTK Theme.
+  Is a simple black theme with background in black, text in white, 
+  strings in orange, numbers in yellow, and almost everything else in green.
+
+  At tis version (0.5), the main colors is ready, butis still main do a 
+  soft adjust in the tons of the colors and maybe some language adjusts.
+
+  Compatible with GTKSourceView 2 and 3.
+
+  Installations on my computer (this may vary in yours),
+  just copy this file in this directores:
+  /usr/share/gtksourceview-2.0/styles/
+  /usr/share/gtksourceview-3.0/styles/
+-->
+
+<style-scheme id="falkon" _name="Falkon" version="1.0">
+  <author>Falkon</author>
+  <_description>Dark theme focused on Cpp language</_description>
+
+  <!-- COLORS -->
+  <color name="black"               value="#000000"/>
+  <color name="grey1"               value="#333333"/>
+  <color name="grey2"               value="#666666"/>
+  <color name="grey3"               value="#999999"/>
+  <color name="white"               value="#cccccc"/>
+  <color name="red"                 value="#ff0000"/>
+  <color name="green"               value="#00bb00"/>
+  <color name="blue"                value="#0000ff"/>
+  <color name="orange1"             value="#f57900"/>
+  <color name="orange2"             value="#f79B22"/>
+  <color name="yellow"              value="#f0f030"/>
+  <color name="background"          value="#222222"/>
+
+  <!-- Global Settings -->
+  <style name="text"                     foreground="white" background="background"/>
+  <style name="cursor"                   foreground="red"/>
+  <style name="current-line"             background="grey2"/>
+  <style name="line-numbers"             foreground="white" background="grey2"/>
+  <style name="selection"                foreground="white" background="grey2"/>
+
+  <!-- Comments -->
+  <style name="def:comment"              foreground="grey2"/>
+  <style name="def:shebang"              foreground="grey2"/>
+  <style name="def:doc-comment-element"  foreground="grey2"/>
+  <style name="def:note"                 foreground="grey2"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"        foreground="yellow"/>
+  <style name="bracket-mismatch"     foreground="red"/>
+  <style name="search-match"         foreground="grey3" background="grey1"/>
+
+  <!-- Base syntax colors -->
+  <style name="def:string"           foreground="orange1"/>
+  <style name="def:character"        foreground="orange1"/>
+  <style name="def:special-char"     foreground="orange2"/>
+  <style name="def:number"           foreground="yellow"/>
+  <style name="def:decimal"          foreground="yellow"/>
+  <style name="def:floating-point"   foreground="yellow"/>
+  <style name="def:complex"          foreground="yellow"/>
+  <style name="def:base-n-integer"   foreground="yellow"/>
+  <style name="def:boolean"          foreground="green" bold="true"/>
+  <style name="def:keyword"          foreground="green" bold="true"/>
+  <style name="def:type"             foreground="green" bold="true"/>
+  <style name="def:preprocessor"     foreground="green" bold="true"/>
+  <style name="def:builtin"          foreground="green"/>
+  <style name="def:function"         foreground="green"/>
+  <style name="def:identifier"       foreground="green"/>
+  <style name="def:operator"         foreground="green"/>
+  <style name="def:statement"        foreground="green"/>
+  <style name="def:constant"         foreground="green"/>
+  <style name="def:special-constant" foreground="green"/>
+  <style name="def:error"            foreground="red" background="grey1"/>
+</style-scheme>
