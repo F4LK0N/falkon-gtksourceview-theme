@@ -1,0 +1,21 @@
+//SUBSTITUITE THIS:
+<context id="operators" style-ref="operator">
+  <match>[&lt;]{2}|[&gt;]{2}|[+]{1}|[-]{1}|[=]{1}|[!]{1}|[*]{1}|[/]{1}</match>
+</context>
+
+//ADD THIS:
+<context id="keywords" style-ref="keyword">
+  ...
+  <keyword>cout</keyword>
+  <keyword>cin</keyword>
+  <keyword>cerr</keyword>
+  <keyword>clog</keyword>
+  ...
+</context>
+
+//AND THIS:
+<context id="types" style-ref="type">
+  ...
+  <keyword>string</keyword>
+  ...
+</context>
